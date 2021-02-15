@@ -12,8 +12,8 @@ app.get("/bmicalculator", function(req, res) {
 
 app.post("/bmicalculator", function(req, res) {
 
-  var num1 = Number(req.body.num1);
-  var num2 = Number(req.body.num2);
+  var weight = Number(req.body.weight);
+  var height = Number(req.body.height);
 
   var result = num1 + num2;
 
